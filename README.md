@@ -23,6 +23,7 @@ Version 1.2
 - index.php unchanged
 - Added Navbar to contact.php
 - Added CSS and HTML to make the form fill the page more and modernize it
+- Cleaned up the Form so it looks decent (but im still not satisfied with how it looks)
 
 # To-Do
 - Add List of Admins
