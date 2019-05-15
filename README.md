@@ -1,7 +1,8 @@
-# status_ndmts beta
+# status_ndmts
 status page for my services, written in php
 - Frontend written in PHP
 - Backend using PHP Servermonitor: https://github.com/phpservermon/phpservermon
+- result can be viewed here: https://ndm-ts.ch
 
 # Changelog
 Version 1.0
@@ -17,6 +18,11 @@ Version 1.1
 - Changed Footer
 - Added Incident reporting form
 - Added Link to To report an incident in navbar and footer
+
+Version 1.2
+- index.php unchanged
+- Added Navbar to contact.php
+- Added CSS and HTML to make the form fill the page more and modernize it
 
 # To-Do
 - Add List of Admins

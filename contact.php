@@ -23,13 +23,32 @@ if(isset($_POST['submit'])){
 <meta charset="UTF-8">   
 <title>Report an Incident</title>
 <link rel="stylesheet" type="text/css" href="contact.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-
+<nav class="topnav" id="myTopnav">
+        <a href="/index.php" class="text">Home</a>
+        <a href="https://attikacloud.ddns.net" class="text">NextCloud</a>
+        <a href="./monitor" class="text">Status Login</a>
+        <a href="ts3server://81.221.216.103" class="text">Connect to Server</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                   x.className = "topnav";
+                }
+            } 
+        </script>
+    </nav>
 <form action="" method="post">
-Vorname:    <input type="text" name="first_name"><br>
-Nachname:   <input type="text" name="last_name"><br>
-Email:      <input type="text" name="email"><br>
-Nachricht:<br><textarea rows="5" name="message" cols="30"></textarea><br>
-<input type="submit" name="submit" value="Submit">
+<label>Vorname:</label><input type="text" name="first_name"><br>
+<label>Nachname:</label><input type="text" name="last_name"><br>
+<label>Email:</label><input type="text" name="email"><br>
+<label>Nachricht:</label><br><textarea rows="5" name="message" cols="30"></textarea><br>
+<input type="submit" name="submit" value="Report Incident">
 </form>
