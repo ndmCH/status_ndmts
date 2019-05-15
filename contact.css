@@ -14,7 +14,7 @@ input {
     display: inline-block;
 }
 textarea {
-    width: 80%;
+    width: 65%;
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
@@ -33,10 +33,12 @@ input[type=button], input[type=submit] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+    margin-left: 13.25%;
+    width: 64%;
   }
   label{
     display: inline-block;
-    clear: left;
+    clear: left, top;
     width: 250px;
     text-align: center;
 }

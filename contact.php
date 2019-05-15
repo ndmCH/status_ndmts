@@ -45,10 +45,13 @@ if(isset($_POST['submit'])){
             } 
         </script>
     </nav>
-<form action="" method="post">
-<label>Vorname:</label><input type="text" name="first_name"><br>
-<label>Nachname:</label><input type="text" name="last_name"><br>
-<label>Email:</label><input type="text" name="email"><br>
-<label>Nachricht:</label><br><textarea rows="5" name="message" cols="30"></textarea><br>
-<input type="submit" name="submit" value="Report Incident">
-</form>
+    <div>        
+    <form action="" method="post">
+        <label class="text">Vorname:</label><input type="text" name="first_name"><br>
+        <label class="text">Nachname:</label><input type="text" name="last_name"><br>
+        <label class="text">Email:</label><input type="text" name="email"><br>
+        <label class="text">Nachricht:</label>
+        <textarea rows="5" name="message" cols="30"></textarea><br>
+        <input type="submit" name="submit" value="Report Incident">
+    </form>
+    </div>
