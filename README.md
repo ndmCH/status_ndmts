@@ -1,10 +1,10 @@
-# status_ndmts
+# status_ndmts beta
 status page for my services, written in php
 - Frontend written in PHP
 - Backend using PHP Servermonitor: https://github.com/phpservermon/phpservermon
 
 # Changelog
-Version 1.0:
+Version 1.0
 - Improved Accessibility
 - Added Navbar to better distinguish navigation elements
 - Added dynamic frontend (changed from HTML to PHP)
@@ -13,6 +13,11 @@ Version 1.0:
 - Added JS-function to improve accessibility of navbar
 - Added and improved some CSS
 
+Version 1.1
+- Changed Footer
+- Added Incident reporting form
+- Added Link to To report an incident in navbar and footer
+
 # To-Do
 - Add List of Admins
-- Implement a way to report Incidents without sending an e-mail to me or an admin
+- Implement a way to report Incidents without sending an e-mail to me or an admin (DONE)
