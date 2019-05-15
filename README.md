@@ -9,6 +9,7 @@ Version 1.0:
 - Added PHP-function to ping hosts
 - Added JS-function to execute PHP-function and change content of HTML-Table to accurately represent status of services
 - Added JS-function to improve accessibility of navbar
+- Added and improved some CSS
 
 # To-Do
 - Add List of Admins
