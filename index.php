@@ -58,6 +58,7 @@ foreach ($servers as $name => $info) {
         <a href="https://attikacloud.ddns.net" class="text">NextCloud</a>
         <a href="./monitor" class="text">Status Login</a>
         <a href="ts3server://81.221.216.103" class="text">Connect to Server</a>
+        <a href="/contact.php" class="text">Report Incident</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
         </a>
