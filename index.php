@@ -100,7 +100,7 @@ foreach ($servers as $name => $info) {
                 </tbody>
             </table>
             <footer>
-                <p class="text">To report an incident either contact an Admin or write a Mail to <a href="mailto:nils.marti@ndm-ts.ch">me</a>(nils.marti@ndm-ts.ch)</p>
+                <p class="text">To report an incident: <a href="/contact.php">Report Incident</a> or write me an email directly (nils.marti@ndm-ts.ch)</p>
             </footer>    
         </div>
 
