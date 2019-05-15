@@ -19,6 +19,11 @@ Version 1.1
 - Added Incident reporting form
 - Added Link to To report an incident in navbar and footer
 
+Version 1.2
+- index.php unchanged
+- Added Navbar to contact.php
+- Added CSS and HTML to make the form fill the page more and modernize it
+
 # To-Do
 - Add List of Admins
 - Implement a way to report Incidents without sending an e-mail to me or an admin (DONE)
