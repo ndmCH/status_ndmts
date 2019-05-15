@@ -1,4 +1,4 @@
-# status_ndmts beta
+# status_ndmts
 status page for my services, written in php
 - Frontend written in PHP
 - Backend using PHP Servermonitor: https://github.com/phpservermon/phpservermon
