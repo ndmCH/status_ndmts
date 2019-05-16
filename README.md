@@ -4,7 +4,19 @@ status page for my services, written in php
 - Backend using PHP Servermonitor: https://github.com/phpservermon/phpservermon
 - result can be viewed here: https://ndm-ts.ch
 
-# Changelog
+# Changelog (newest first)
+
+Version 1.2
+- index.php unchanged
+- Added Navbar to contact.php
+- Added CSS and HTML to make the form fill the page more and modernize it
+- Cleaned up the Form so it looks decent (but im still not satisfied with how it looks)
+
+Version 1.1
+- Changed Footer
+- Added Incident reporting form
+- Added Link to To report an incident in navbar and footer
+
 Version 1.0
 - Improved Accessibility
 - Added Navbar to better distinguish navigation elements
@@ -13,17 +25,6 @@ Version 1.0
 - Added JS-function to execute PHP-function and change content of HTML-Table to accurately represent status of services
 - Added JS-function to improve accessibility of navbar
 - Added and improved some CSS
-
-Version 1.1
-- Changed Footer
-- Added Incident reporting form
-- Added Link to To report an incident in navbar and footer
-
-Version 1.2
-- index.php unchanged
-- Added Navbar to contact.php
-- Added CSS and HTML to make the form fill the page more and modernize it
-- Cleaned up the Form so it looks decent (but im still not satisfied with how it looks)
 
 # To-Do
 - Add List of Admins
