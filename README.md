@@ -6,6 +6,10 @@ status page for my services, written in php
 
 # Changelog (newest first)
 
+Version 1.2.1
+- contact.php changed (form is now nested in a table)
+- added some css
+
 Version 1.2
 - index.php unchanged
 - Added Navbar to contact.php
@@ -28,4 +32,6 @@ Version 1.0
 
 # To-Do
 - Add List of Admins
-- Implement a way to report Incidents without sending an e-mail to me or an admin (DONE)
+- Clean up CSS and make everything in contact.php look cohesive
+- Add more functionality
+- Add a Twitter Style Feed to index.php to let people know about the status of incidents
