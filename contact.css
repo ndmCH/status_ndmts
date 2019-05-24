@@ -7,14 +7,14 @@ body {
     text-align: center;
 }
 input {
-    width: 65%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     display: inline-block;
 }
 textarea {
-    width: 65%;
+    width: 100%;
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
@@ -33,14 +33,20 @@ input[type=button], input[type=submit] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-    margin-left: 13.25%;
-    width: 64%;
+    clear: left;
+    width: 80%;
   }
-  label{
+.label{
     display: inline-block;
-    clear: left, top;
+    clear: left;
     width: 250px;
     text-align: center;
+}
+label{
+  display: inline-block;
+  clear: left;
+  width: 250px;
+  text-align: center;
 }
 .topnav {
     background-color: #333;
@@ -66,14 +72,14 @@ input[type=button], input[type=submit] {
   .topnav .icon {
     display: none;
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width : 602px ){
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
       display: block;
     }
   }
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width : 602px ){
     .topnav.responsive {position: relative;}
     .topnav.responsive a.icon {
       position: absolute;
@@ -86,3 +92,9 @@ input[type=button], input[type=submit] {
       text-align: left;
     }
   }
+.feld {
+  display: inline-block;
+  clear: left;
+  width: 250px;
+  text-align: center;
+}

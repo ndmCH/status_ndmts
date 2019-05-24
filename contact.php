@@ -47,11 +47,27 @@ if(isset($_POST['submit'])){
     </nav>
     <div>        
     <form action="" method="post">
-        <label class="text">Vorname:</label><input type="text" name="first_name"><br>
-        <label class="text">Nachname:</label><input type="text" name="last_name"><br>
-        <label class="text">Email:</label><input type="text" name="email"><br>
-        <label class="text">Nachricht:</label>
-        <textarea rows="5" name="message" cols="30"></textarea><br>
-        <input type="submit" name="submit" value="Report Incident">
+        <table contact class="feld">
+            <tr>
+                <td><label class="text">Vorname:</label></td>
+                <td class="feld"><input type="text" name="first_name"></td>
+            </tr>
+            <tr>
+                <td><label class="text">Nachname:</label></td>
+                <td class="feld"><input type="text" name="last_name"></td>
+            </tr>
+            <tr>
+                <td><label class="text">Email:</label></td>
+                <td class="feld"><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td><label class="text">Nachricht:</label></td>
+                <td class="feld"><textarea rows="5" name="message" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="feld"><input class="label" type="submit" name="submit" value="Report Incident"></td>
+            </tr>
+        </table>
     </form>
     </div>
